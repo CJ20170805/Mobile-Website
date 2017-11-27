@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+}
+ font-family:PingFangSC-Light,'STHeiti Light',
+    'helvetica neue',
+    'hiragino sans gb',arial,'microsoft yahei ui',
+    'microsoft yahei',simsun,sans-serif;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img{padding: 0; margin: 0;}
+dl,ul,ol,menu,li{list-style:none;font-size: 14px;}
+select,input,img,select{vertical-align:middle;}
+
+.clearfix {zoom:1}
+.clearfix:after {content: ''; display: block; clear: both;}
+.cursor{ cursor:pointer;}
+
+a{
+  text-decoration:none;
+  color: #333}
+a:link{color:#333;}
+a:active,a:focus{color:#c00;text-decoration:none;}
+
+.pr{position:relative}/*��Զ�λ*/
+.pa{position:absolute}/*���Զ�λ*/
+.fl{ float:left;}/*�󸡶�*/
+.fr{ float:right;}/*�Ҹ���*/
+.fl,.fr{display:inline;}/*�����󣬴�Ԫ�ػᱻ��ʾΪ����Ԫ�أ�Ԫ��ǰ��û�л��з�*/
+
+/*������ɫc��������ɫbc*/
+.c1{color:#5d5d5d}
+.c2{color:#8f8f8f}
+.c3{color:#e44cea}
+.c4{color:#f49bff}
+.c5{color:#ff0000}
+.bc1{background:#f3f3f3}
+.bc2{background:#f8f8f8}
+.bc3{background:#ffffff}

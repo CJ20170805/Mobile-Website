@@ -1,0 +1,517 @@
+body{
+  width: 100%;
+  font-size: 100%;
+  overflow: hidden;
+}
+/*！左侧隐藏栏样式*/
+.nav-left{
+  width: 60%;
+  background-color: #3278e7;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -999;
+  color: #ffffff;
+  padding: 22px 20px;
+}
+.login .user-header{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: url('../images/mobileapi.jpg') no-repeat center;
+  background-size: 52px 52px;
+  float: left;
+}
+.login .login-btn{
+  float: left;
+  font-size: 0.9rem;
+  margin-left: 10px;
+  margin-top: 4px;
+  line-height: 1.4rem;
+}
+.login .login-btn a{
+  color: #ffffff;
+}
+.login .login-btn p{
+  font-size: 0.7rem;
+  color: #cbc1bf;
+}
+.nav-left .link-list ul li{
+  float: left;
+  color: red;
+  width: 50%;
+  padding: 20px 0;
+}
+.link-list .ul-one{
+  border-bottom: 1px solid #bdbdbd;
+}
+.link-list ul li .link-icon{
+  display: inline-block;
+  width: 24px;
+  height: 22px;
+  background: url('../images/m-menu-icon.png-version=111.png') no-repeat center;
+  background-size: 34px;
+  vertical-align: middle;
+}
+.ul-last{
+  border: none;
+}
+.link-list ul li .link-text{
+  color: #ffffff;
+}
+.link-list ul li .wdjj{
+  background-position: 0 0;
+}
+.link-list ul li .wdcj{
+  background-position: 0 -70px;
+}
+.link-list ul li .yhq{
+  background-position: 0 -828px;
+}
+.link-list ul li .dzgl{
+  background-position: 0 -206px;
+}
+.link-list ul li .kddq{
+  background-position: 0 -276px;
+}
+.link-list ul li .wddq{
+  background-position: 0 -340px;
+}
+.link-list ul li .gjkd-icon{
+  background-position: 0 -410px;
+}
+.link-list ul li .dhdq{
+  background-position: 0 -478px;
+}
+.link-list ul li .sxcx{
+  background-position: 0 -544px;
+}
+.link-list ul li .jgcx{
+  background-position: 0 -612px;
+}
+.link-list ul li .wdxx{
+  background-position: 0 -136px;
+}
+.link-list ul li .yjfk{
+  background-position: 0 -682px;
+}
+.link-list ul li .gywm{
+  background-position: 0 -750px;
+}
+/*！ 主页样式*/
+
+.wrap{
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  transition: all .2s linear;
+}
+header>nav{
+  width: 100%;
+  height: 3rem;
+  background-color: #3278e7;
+  border-left: 1px solid #ffffff;
+}
+.menu{
+  width: 3rem;
+  height: 3rem;
+  padding: 16px;
+  position: absolute;
+  cursor: pointer;
+}
+.menu span{
+  display: block;
+  height: 2px;
+  width: 22px;
+  background-color: #ffffff;
+  margin-bottom:5px; 
+}
+.menu span:last-child{
+  margin-bottom: 0;
+}
+.triangle:after{
+  content: '';
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 5px);
+}
+nav ul{
+  width: 100%-3rem;
+  margin-left: 3rem;
+}
+nav ul li{
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 3.2);
+  text-align: center;
+  line-height:3rem; 
+  color: #ffffff;
+}
+.logo{
+  width: 100%;
+  margin: 30px 0;
+}
+#logo{
+  width: 26%;
+  margin-left: 37%;
+}
+#form{
+  position: relative;
+  padding: 0 10px;
+}
+.search .camera-icon{
+  position: absolute;
+  top: 0;
+  right: 64px;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background: url('../images/camera_03.png') no-repeat center;
+}
+.search .delete-icon{
+  position: absolute;
+  top: 0;
+  right: 64px;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background: url('../images/delete.png') no-repeat center;
+  background-size: 80%;
+  display: none;
+}
+#search_text{
+  height: 42px;
+  width: 100%;
+  border: 2px solid #4b82d4;
+  text-indent: 1em;
+  font-size: 1rem;
+}
+#form label{
+  display: inline-block;
+  width: 3.5rem;
+  height: 42px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 42px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background: url('../images/m-menu-icon.png-version=20170811.png') no-repeat 16px -58px;
+  background-size: 60%;
+  background-color: #3278e7;
+}
+.ad{
+  margin: 1rem 10px;
+  border-top: 1px solid #cccccc;
+  position: relative;
+}
+.hide-wrap{
+  width: 100%;
+  height:100%;
+  background-color:rgba(131, 128, 128,0.4);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.ad-hide{
+  width: 120px;
+  height: 58px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+.ad .noin-icon{
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: url('../images/ad/adHide_03.png') no-repeat center;
+  background-size: 60%;
+  margin-left: 4px;
+}
+.ad .close-icon{
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background: url('../images/ad/adHide_06.png') no-repeat center;
+  background-size: 60%;
+  margin-left: 4px;
+}
+.ad .hide-text{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 29px;
+}
+.ad-hide dl dd{
+  height: 29px;
+  line-height: 29px;
+  color: #8b8888;
+  font-size: 0.9rem;
+}
+.ad-triangle:before{
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom:10px solid #ffffff;
+  position: absolute;
+  top: -18px;
+  right: 10px;
+}
+.ad-title{
+  height: 24px;
+}
+.ad-tit{
+  font-size: 0.7rem;
+  line-height: 24px;
+  color: #c3c6c9;
+}
+.ad-btn{
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background:url('../images/3circle.png') no-repeat center;
+  background-size: 16px 3px;
+}
+.ad a>img{
+  width: 100%;
+}
+.content{
+  margin-top: 20px;
+}
+.content .icon .item{
+   float: left;
+   width: 33.33333%;
+   text-align: center;
+}
+.content .icon .item span{
+  color: #5a5866;
+  font-size: 0.8rem;
+}
+.content .icon .item i{
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-left: calc(50% - 20px);
+  background:url('../images/smart/ico_product.png-v=201612191527.png') no-repeat;
+  background-size: 40px;
+}
+.icon-bottom{
+  margin-top: 20px;
+}
+.content .icon .item .kdy{
+  background-position: 0 0;
+}
+.content .icon .item .cwd{
+  background-position: 0 -120px;
+}
+.content .icon .item .csx{
+  background-position: 0 -240px;
+}
+.content .icon .item .wdfj{
+  background-position: 0 -360px;
+}
+.content .icon .item .gjkd{
+  background-position: 0 -424px;
+}
+.content .icon .item .wddh{
+  background-position: 0 -720px;
+}
+.footer-btn a{
+  float: left;
+  width: 70px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #cbc1bf;
+  background-color: #e6e6e6;
+  font-size: 0.85rem;
+}
+.footer-btn a:last-child{
+  border-left:1px solid #c3c6c9; 
+}
+.footer-btn{
+  margin-top: 40px;
+}
+.btn-group{
+  width: 140px;
+  margin: 0 auto;
+}
+.copyright{
+  width: 100%;
+  margin-top: 16px;
+}
+.copyright .foot-icon{
+ float: left;
+ width: 44px;
+ height: 14px;
+ background: url('../images/smart/logo_footer.png') no-repeat center;
+ background-size: 44px 14px;
+}
+.copyright .cr-text{
+  float: left;
+  height: 14px;
+  font-size: 0.7rem;
+  color: #cbc1bf;
+}
+.foot-wrap{
+  width: 152px;
+  margin: 0 auto;
+}
+/*! 快递搜索 分页*/
+
+/*! 寄快递 分页*/
+.send{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  display: none;
+}
+.location{
+  float: left;
+}
+.send .send-search{
+  height: 3rem;
+  width: 100%;
+  background-color: #ecf0f3;
+  padding-left: 10px;
+}
+.send .send-search span{
+  display: inline-block;
+  line-height: 3rem;
+}
+.send .location{
+  width: 18%;
+  text-align: center;
+}
+.send-search-put{
+  height: 3rem;
+  float: left;
+  padding: 0.8rem 14px;
+  width: 80%;
+  position: relative;
+}
+.send-search-put input{
+  height: 1.4rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  text-indent: 2em;
+}
+.send-search-put .search-icon{
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: url('../images/search.png') no-repeat;
+  background-size: 84%;
+  position: absolute;
+  left: 16px;
+  top: 1.1rem;
+}
+.send .send-search .city-name{
+  font-size: 0.9rem;
+  color: #8b8888;
+}
+.send .send-search .bottom-arrow:after{
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #5a5866;
+  border-left: 0;
+  border-top: 0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 18px;
+}
+.hide-div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(131, 128, 128,0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  padding-top: 200px;
+}
+.hide-div .hide-icon{
+  width: 160px;
+  height: 140px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin:auto;
+  padding: 20px 10px;
+}
+.hide-div .hide-icon img{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 30%;
+}
+.hide-div .hide-icon p{
+  color: #3278e7;
+  margin-top: 10px;
+}
+/*! 快递大全 分页*/
+::-webkit-scrollbar{
+  width: 0;
+}
+.all{
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  display: none;
+  overflow: scroll;
+}
+.all .letter-index{
+  position: fixed;
+  right: 10px;
+  top: 20%;
+  z-index: 99999;
+}
+.all .index-wrap{
+  background-color: #c3c6c9;
+  border-radius: 6px;
+  padding: 8px 0;
+}
+.all .letter-index a{
+  display: block;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  font-size: 0.7rem;
+  color: #5a5866;
+}
+.all dl dt{
+  height: 36px;
+  width: 100%;
+  background-color: #f3eded;
+  line-height: 36px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+.all .all-icon img{
+  border-radius:50%; 
+  width: 48px;
+  height: 48px;
+}
+.all dl dd .all-name{
+  margin-left: 16px;
+}
+.all dl dd a{
+  display: block;
+}
+.all dl dd{
+  background-color: #ffffff;
+  padding-left: 10px;
+  height: 80px;
+  border-bottom: 1px solid #d7dbdf;
+  line-height: 80px;
+}
